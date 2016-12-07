@@ -1,0 +1,842 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	
+	<title>Prema - Resume & Portfolio Template</title>
+	
+	<meta name="description" content="Prema is HTML5 & CSS3 portfolio template based on Bootstrap v3.3.6">
+	<meta name="author" content="Ahmed Beheiry">
+	<meta name="copyright" content="Ahmed Beheiry">
+	<meta name="generator" content="Documenter v2.0 http://rxa.li/documenter">
+	<meta name="date" content="2016-11-04T00:00:00+01:00">
+
+	<!-- Favicons Links -->
+	<link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="assets/img/favicons/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="assets/img/favicons/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="assets/img/favicons/manifest.json">
+	<link rel="mask-icon" href="assets/img/favicons/safari-pinned-tab.svg" color="#f7465b">
+	<link rel="shortcut icon" href="assets/img/favicons/favicon.ico">
+	<meta name="msapplication-config" content="assets/img/favicons/browserconfig.xml">
+	<meta name="theme-color" content="#0c7cd5">
+	
+	<link rel="stylesheet" href="assets/css/documenter_style.css" media="all">
+	<link rel="stylesheet" href="assets/js/google-code-prettify/prettify.css" media="screen">
+	<script src="assets/js/google-code-prettify/prettify.js"></script>
+
+	
+	
+	<script src="assets/js/jquery.js"></script>
+	
+	<script src="assets/js/jquery.scrollTo.js"></script>
+	<script src="assets/js/jquery.easing.js"></script>
+	
+	<script>document.createElement('section');var duration='500',easing='easeInCirc';</script>
+	<script src="assets/js/script.js"></script>
+	
+	<style>
+		html{background-color:#F3F3F3;color:#585858;}
+		::-moz-selection{background:#F7465B;color:#F1F1F1;}
+		::selection{background:#F7465B;color:#F1F1F1;}
+		#documenter_sidebar #documenter_logo{background-image:url("assets/img/logo.png");}
+		a{color:#F7465B;}
+		.btn {
+			border-radius:3px;
+		}
+		.btn-primary {
+			  background-image: -moz-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -ms-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -webkit-gradient(linear, 0 0, 0 0088CC%, from(#333333), to(#0044CC));
+			  background-image: -webkit-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -o-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: linear-gradient(top, #0088CC, #0044CC);
+			  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0088CC', endColorstr='#0044CC', GradientType=0);
+			  border-color: #0044CC #0044CC #bfbfbf;
+			  color:#F9F9F9;
+		}
+		.btn-primary:hover,
+		.btn-primary:active,
+		.btn-primary.active,
+		.btn-primary.disabled,
+		.btn-primary[disabled] {
+		  border-color: #0088CC #0088CC #bfbfbf;
+		  background-color: #0044CC;
+		}
+		hr{border-top:1px solid #E5E5E5;border-bottom:1px solid #F9F9F9;}
+		#documenter_sidebar, #documenter_sidebar ul a{background-color:#333333;color:#F1F1F1;}
+		#documenter_sidebar ul a{-webkit-text-shadow:1px 1px 0px #444444;-moz-text-shadow:1px 1px 0px #444444;text-shadow:1px 1px 0px #444444;}
+		#documenter_sidebar ul{border-top:1px solid #222222;}
+		#documenter_sidebar ul a{border-top:1px solid #444444;border-bottom:1px solid #222222;color:#F1F1F1;}
+		#documenter_sidebar ul a:hover{background:#F7465B;color:#F1F1F1;border-top:1px solid #F7465B;}
+		#documenter_sidebar ul a.current{background:#F7465B;color:#F1F1F1;border-top:1px solid #F7465B;}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+	</style>
+	
+</head>
+<body class="documenter-project-prema">
+	<div id="documenter_sidebar">
+		<a href="#documenter_cover" id="documenter_logo"></a>
+		<ul id="documenter_nav">
+			<li><a class="current" href="#documenter_cover">Start</a></li>
+				
+			<li><a href="#folders_and_files" title="Folders and Files">Folders and Files</a></li>
+			<li><a href="#prema_folder_structure" title="Prema Folder Structure">Prema Folder Structure</a></li>
+			<li><a href="#html_structure" title="HTML Structure">HTML Structure</a></li>
+			<li><a href="#css_files_and_structure" title="CSS Files and Structure">CSS Files and Structure</a></li>
+			<li><a href="#javascript" title="JavaScript">JavaScript</a></li>
+			<li><a href="#php" title="PHP ">PHP </a></li>
+			<li><a href="#change_template_color" title="Change Template Color">Change Template Color</a></li>
+			<li><a href="#parallax" title="Parallax">Parallax</a></li>
+			<li><a href="#images" title="Images">Images</a></li>
+			<li><a href="#dark_or_light_map" title="Dark or Light Map">Dark or Light Map</a></li>
+			<li><a href="#sources_and_credits" title="Sources and Credits">Sources and Credits</a></li>
+
+		</ul>
+		<div id="documenter_copyright">Copyright Ahmed Beheiry 2016<br>
+		made with the <a href="http://rxa.li/documenter">Documenter v2.0</a> 
+		</div>
+	</div>
+	<div id="documenter_content">
+	<section id="documenter_cover">
+	<h1>Prema</h1>
+	<h2>Resume & Portfolio Template</h2>
+	<div id="documenter_buttons">
+		
+	</div>
+	<hr>
+	<ul>
+	<li>created: 11/04/2016</li>
+	<li>latest update: 11/04/2016</li>
+	<li>by: Ahmed Beheiry</li>
+	
+	<li>email: <a href="mailto:&#97;&#104;&#109;&#101;&#100;&#95;&#98;&#101;&#104;&#101;&#105;&#114;&#121;&#64;&#121;&#97;&#104;&#111;&#111;&#46;&#99;&#111;&#109;">&#97;&#104;&#109;&#101;&#100;&#95;&#98;&#101;&#104;&#101;&#105;&#114;&#121;&#64;&#121;&#97;&#104;&#111;&#111;&#46;&#99;&#111;&#109;</a></li>
+	</ul>
+	<p>Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="https://themeforest.net/user/ahmedbeheiry?ref=ahmedbeheiry">here</a>. Please make sure you read this documentation. Thanks so much! 
+<br><br>
+<strong>Prema</strong> | Portfolio is Html5 + CSS3 portfolio template and works fine in all major browsers. It's powered by jQuery and you'll find nice and discreet interactivity. The code is clearly written and you will find comments for each section parts. Let's take a closer look at the structure of Html, CSS, JavaScript...</p>
+	</section>
+	
+	<section id="folders_and_files">
+	<div class="page-header"><h3>Folders and Files</h3><hr class="notop"></div>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(88, 88, 88); background-color: rgb(243, 243, 243);">
+	<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(56, 56, 56);">When you unpack downloaded archive from&nbsp;</span><span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;"><span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; vertical-align: baseline; color: rgb(56, 56, 56);">themeforest.net&nbsp;</span></span><span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(56, 56, 56);">you will find it as the following:&nbsp;</span></p>
+<ol style="padding-right: 0px; padding-left: 0px; margin: 18px 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(88, 88, 88); background-color: rgb(243, 243, 243);">
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: decimal;">
+		<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;"><span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(56, 56, 56);">Documentation&nbsp;Folder:&nbsp;</span></span><span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(56, 56, 56);">&nbsp;Documentation for the convertible site template.</span></li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: decimal;">
+		<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(56, 56, 56);"><span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">Prema Folder:</span>&nbsp;&nbsp;Main folder of the template ( which contains folders and files of the template ).</span></li>
+</ol>
+</section>
+<section id="prema_folder_structure">
+	<div class="page-header"><h3>Prema Folder Structure</h3><hr class="notop"></div>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(88, 88, 88); background-color: rgb(243, 243, 243);">
+	<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(56, 56, 56);">- When you open&nbsp;</span><span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; vertical-align: baseline; color: rgb(56, 56, 56);"><strong>Prema</strong>&nbsp;<span style="font-weight: inherit;">folder you will find folders as shown next:</span></span></p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(88, 88, 88); background-color: rgb(243, 243, 243);">
+	<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; vertical-align: baseline; color: rgb(56, 56, 56);">&nbsp; &nbsp; &nbsp;1 )&nbsp;<span style="font-family: inherit; font-style: inherit; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; vertical-align: baseline;">CSS folder &nbsp; : &nbsp;</span>contains all CSS files used in the template.</span></p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(88, 88, 88); background-color: rgb(243, 243, 243);">
+	<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; vertical-align: baseline; color: rgb(56, 56, 56);">&nbsp; &nbsp; &nbsp;2 )&nbsp;</span><span style="font-family: inherit; color: rgb(56, 56, 56); font-style: inherit; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; vertical-align: baseline;">Fonts folder :&nbsp;</span><span style="color: rgb(56, 56, 56);">&nbsp;contains all fonts ( Icons fonts ) used in the template.</span></p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(88, 88, 88); background-color: rgb(243, 243, 243);">
+	<span style="color: rgb(56, 56, 56);">&nbsp; &nbsp; &nbsp;3 )&nbsp;</span><span style="font-family: inherit; color: rgb(56, 56, 56); font-style: inherit; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; vertical-align: baseline;">img&nbsp;folder &nbsp; &nbsp; &nbsp; : &nbsp;</span><span style="color: rgb(56, 56, 56);">where you should put your images in.</span></p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(88, 88, 88); background-color: rgb(243, 243, 243);">
+	<span style="color: rgb(56, 56, 56);">&nbsp; &nbsp; &nbsp;4 )&nbsp;</span><span style="font-family: inherit; color: rgb(56, 56, 56); font-style: inherit; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; vertical-align: baseline;">Js folder &nbsp; &nbsp; &nbsp; : &nbsp;</span><span style="color: rgb(56, 56, 56);">contains all JavaScript files used in the template.</span></p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(88, 88, 88); background-color: rgb(243, 243, 243);">
+	<span style="color: rgb(56, 56, 56);">&nbsp; &nbsp; &nbsp; 5 )&nbsp;<strong>PHP folder :&nbsp;</strong>contains contact.php file used in the contact form.</span></p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(88, 88, 88); background-color: rgb(243, 243, 243);">
+	<span style="color: rgb(56, 56, 56);">&nbsp; &nbsp; &nbsp;</span><span style="color: rgb(56, 56, 56);">6 )&nbsp;</span><strong>index-parallax.html&nbsp;&nbsp; :&nbsp;</strong><span style="font-family: inherit; font-style: inherit; font-weight: inherit;">Parallax index file.</span></p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(88, 88, 88); background-color: rgb(243, 243, 243);">
+	<span style="color: rgb(56, 56, 56);">&nbsp; &nbsp; &nbsp;</span><span style="color: rgb(56, 56, 56);">7 )&nbsp;</span><strong>index-slider.html&nbsp;&nbsp; :&nbsp;</strong><span style="font-family: inherit; font-style: inherit; font-weight: inherit;">FullSize Slider index file.</span></p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(88, 88, 88); background-color: rgb(243, 243, 243);">
+	<span style="color: rgb(56, 56, 56);">&nbsp; &nbsp; &nbsp;</span><span style="color: rgb(56, 56, 56);">8 )&nbsp;</span><strong>index-slider-parallax.html&nbsp;&nbsp; :&nbsp;</strong>FullSize Parallax Slider index file.</p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(88, 88, 88); background-color: rgb(243, 243, 243);">
+	<span style="color: rgb(56, 56, 56);">&nbsp; &nbsp; &nbsp;9</span><span style="color: rgb(56, 56, 56);">&nbsp;)&nbsp;</span><strong>index-static.html&nbsp;&nbsp; :&nbsp;</strong>Static index file. &nbsp;( Light Map )</p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(88, 88, 88); background-color: rgb(243, 243, 243);">
+	<span style="color: rgb(56, 56, 56);">&nbsp; &nbsp; &nbsp;10</span><span style="color: rgb(56, 56, 56);">&nbsp;)&nbsp;</span><strong>index-static-dark-map.html&nbsp;&nbsp; :&nbsp;</strong>Static index file. &nbsp;( Dark Map )</p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(88, 88, 88); background-color: rgb(243, 243, 243);">
+	<span style="color: rgb(56, 56, 56);">&nbsp; &nbsp; &nbsp;11</span><span style="color: rgb(56, 56, 56);">&nbsp;)&nbsp;</span><strong>index-typed-text.html&nbsp;&nbsp; : </strong>Typed Text index file. &nbsp;( static background )</p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(88, 88, 88); background-color: rgb(243, 243, 243);">
+	<span style="color: rgb(56, 56, 56);">&nbsp; &nbsp; &nbsp;12</span><span style="color: rgb(56, 56, 56);">&nbsp;)&nbsp;</span><strong>index-typed-text-fade-style.html&nbsp;&nbsp; :&nbsp;</strong>Typed Text index file. &nbsp;( Fade Images Slider )</p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(88, 88, 88); background-color: rgb(243, 243, 243);">
+	&nbsp;</p>
+</section>
+<section id="html_structure">
+	<div class="page-header"><h3>HTML Structure</h3><hr class="notop"></div>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56); background-color: rgb(243, 243, 243);">
+	<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">Prema template is well commented to easily understand,</span></p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56); background-color: rgb(243, 243, 243);">
+	&nbsp;in index.html you will find:&nbsp;</p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56); background-color: rgb(243, 243, 243);">
+	&nbsp; &nbsp; &nbsp;&nbsp;<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">&lt;head&gt;</span>&nbsp;area in which you can find all the meta tags and CSS files links.</p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56); background-color: rgb(243, 243, 243);">
+	<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">&nbsp; &nbsp; &nbsp;&lt;body&gt;&nbsp;</span>&nbsp;area which contains the site and you will find that :&nbsp;</p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56); background-color: rgb(243, 243, 243);">
+	- the site is divided into sections, every section has&nbsp;a class with value of &quot;section&quot; and id of its name and well commented so you can edit any data you want easily.</p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56); background-color: rgb(243, 243, 243);">
+	- Sections are sorted as their order on the site, so you can find any section you want easily.</p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56); background-color: rgb(243, 243, 243);">
+	- Most of the sections have a container div ( Bootstrap Class ) to wrap the content and make the site looks better, and every section is divided into smaller parts:&nbsp;</p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56); background-color: rgb(243, 243, 243);">
+	For example :&nbsp;</p>
+<div>
+	<pre class="prettyprint lang-html linenums">
+&lt;!-- Start Fun Facts Section --&gt;
+
+&lt;section class=&quot;section text-center&quot; id=&quot;fun-facts&quot;&gt;
+
+    &lt;div class=&quot;overlay&quot;&gt;&lt;/div&gt;
+
+    &lt;div class=&quot;container&quot;&gt;
+
+        &lt;div class=&quot;row&quot;&gt;
+
+            &lt;div class=&quot;col-xs-12&quot;&gt;
+
+                &lt;h2&gt;fun facts&lt;/h2&gt;
+
+                &lt;div class=&quot;separator centered&quot;&gt;&lt;/div&gt;
+
+<span style="font-family: Arial, Verdana, sans-serif;">                                   </span>&lt;p class=&quot;para&quot;&gt;Synergistically create extensive intellectual capital rather than clicks-and-mortar materials.&lt;/p&gt;
+
+            &lt;/div&gt;
+
+        &lt;/div&gt;
+
+        &lt;div class=&quot;row&quot;&gt;
+
+        &lt;!-- Fact No. ( 1 ) --&gt;
+
+            &lt;div class=&quot;fact col-md-3 col-sm-6&quot;&gt;
+
+                &lt;span class=&quot;timer&quot; data-from=&quot;0&quot; data-to=&quot;215&quot; data-speed=&quot;3000&quot;&gt;&lt;/span&gt;
+
+                &lt;div class=&quot;separator centered&quot;&gt;&lt;/div&gt;
+
+                &lt;p&gt;projects done&lt;/p&gt;
+
+            &lt;/div&gt;
+
+        &lt;!-- Fact No. ( 2 ) --&gt;
+
+            &lt;div class=&quot;fact col-md-3 col-sm-6&quot;&gt;
+
+                &lt;span class=&quot;timer&quot; data-from=&quot;0&quot; data-to=&quot;650&quot; data-speed=&quot;3000&quot;&gt;&lt;/span&gt;
+
+                &lt;div class=&quot;separator centered&quot;&gt;&lt;/div&gt;
+
+                &lt;p&gt;happy clients&lt;/p&gt;
+
+            &lt;/div&gt;
+
+        &lt;!-- Fact No. ( 3 ) --&gt;
+
+            &lt;div class=&quot;fact col-md-3 col-sm-6&quot;&gt;
+
+                &lt;span class=&quot;timer&quot; data-from=&quot;0&quot; data-to=&quot;3475&quot; data-speed=&quot;3000&quot;&gt;&lt;/span&gt;
+
+                &lt;div class=&quot;separator centered&quot;&gt;&lt;/div&gt;
+
+                &lt;p&gt;hours worked&lt;/p&gt;
+
+            &lt;/div&gt;
+
+        &lt;!-- Fact No. ( 4 ) --&gt;
+
+            &lt;div class=&quot;fact col-md-3 col-sm-6&quot;&gt;
+
+                &lt;span class=&quot;timer&quot; data-from=&quot;0&quot; data-to=&quot;781&quot; data-speed=&quot;3000&quot;&gt;&lt;/span&gt;
+
+                &lt;div class=&quot;separator centered&quot;&gt;&lt;/div&gt;
+
+                &lt;p&gt;cups of coffee&lt;/p&gt;
+
+            &lt;/div&gt;
+
+        &lt;/div&gt;
+
+    &lt;/div&gt;
+
+&lt;/section&gt;
+
+&lt;!-- End Fun Facts Section --&gt;</pre>
+</div>
+<p>
+	&nbsp;</p>
+<p>
+	For the logo you will find those lines :&nbsp;</p>
+<p>
+	all you have to do is to change the logo to yours.</p>
+<pre class="prettyprint lang-html linenums">
+&lt;!-- Start Logo --&gt;
+
+ <span class="Apple-tab-span" style="white-space:pre"> </span>&lt;a class=&quot;scroll-link navbar-brand&quot; href=&quot;#top-page&quot;&gt;Pre &lt;span class=&quot;colored-brand&quot;&gt;Ma&lt;/span&gt;&lt;/a&gt;
+
+&lt;!-- End Logo --&gt;</pre>
+<p>
+	&nbsp;</p>
+<p>
+	For the social links :&nbsp;</p>
+<p>
+	all you have to do is to replace the # in the links with your social links</p>
+<pre class="prettyprint lang-html linenums">
+&lt;!-- Follow Me Social Links --&gt;
+
+&lt;div class=&quot;social-links&quot;&gt;
+
+    &lt;a href=&quot;#&quot; class=&quot;icon fb&quot;&gt;&lt;/a&gt; &lt;!-- Facebook Link --&gt;
+
+    &lt;a href=&quot;#&quot; class=&quot;icon tw&quot;&gt;&lt;/a&gt; &lt;!-- Twitter Link --&gt;
+
+    &lt;a href=&quot;#&quot; class=&quot;icon gh&quot;&gt;&lt;/a&gt; &lt;!-- Github Link --&gt;
+
+    &lt;a href=&quot;#&quot; class=&quot;icon cp&quot;&gt;&lt;/a&gt; &lt;!-- Codepen Link --&gt;
+
+    &lt;a href=&quot;#&quot; class=&quot;icon li&quot;&gt;&lt;/a&gt; &lt;!-- Linked Link --&gt;
+
+    &lt;a href=&quot;#&quot; class=&quot;icon dr&quot;&gt;&lt;/a&gt; &lt;!-- Dribbble Link --&gt;
+
+    &lt;a href=&quot;#&quot; class=&quot;icon be&quot;&gt;&lt;/a&gt; &lt;!-- Behance Link --&gt;
+
+&lt;/div&gt; </pre>
+</section>
+<section id="css_files_and_structure">
+	<div class="page-header"><h3>CSS Files and Structure</h3><hr class="notop"></div>
+<p style="white-space: normal; margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(88, 88, 88); background-color: rgb(243, 243, 243);">
+	In folder &quot; css &quot; you will find :&nbsp;</p>
+<ol style="white-space: normal; padding-right: 0px; padding-left: 0px; margin: 18px 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(88, 88, 88); background-color: rgb(243, 243, 243);">
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: decimal;">
+		<b>Colors Folder:&nbsp;</b> contains all colors files ( 16 CSS&nbsp;files )</li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: decimal;">
+		<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">animate.css:&nbsp;</span>Animation css3.</li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: decimal;">
+		<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">bootstrap.min.css:&nbsp;</span>Bootstrap css file.&nbsp;<a href="http://getbootstrap.com/" style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; color: rgb(255, 60, 46); text-decoration: none; cursor: pointer;">Bootstrap Framework</a></li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: decimal;">
+		<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">font-awesome.min.css: Font awesome file</span>&nbsp;( icons library ).</li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: decimal;">
+		<strong>slick.css:</strong> slick slider css file.</li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: decimal;">
+		<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">style.css:</span>&nbsp;main styles of the template.</li>
+</ol>
+<p style="white-space: normal; margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(88, 88, 88); background-color: rgb(243, 243, 243);">
+	<strong>Colors Folder&nbsp;</strong>contains 16 CSS files for the 16 colors used in the template:&nbsp;</p>
+<ol style="white-space: normal;">
+	<li style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(88, 88, 88); background-color: rgb(243, 243, 243);">
+		color-1.css &nbsp;( basic color ) &nbsp; &nbsp; #f7465b</li>
+	<li style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(88, 88, 88); background-color: rgb(243, 243, 243);">
+		color-2.css &nbsp;( for color 2 ) &nbsp; &nbsp; &nbsp;#874fe8</li>
+	<li style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(88, 88, 88); background-color: rgb(243, 243, 243);">
+		color-3.css &nbsp;( for color 3 ) &nbsp; &nbsp; &nbsp;#B39964</li>
+	<li style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(88, 88, 88); background-color: rgb(243, 243, 243);">
+		color-4.css &nbsp;( for color 4 ) &nbsp; &nbsp; &nbsp;#00b85b</li>
+	<li style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(88, 88, 88); background-color: rgb(243, 243, 243);">
+		color-5.css &nbsp;( for color 5 ) &nbsp; &nbsp; &nbsp;#0C7CD5</li>
+	<li style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(88, 88, 88); background-color: rgb(243, 243, 243);">
+		color-6.css &nbsp;( for color 6 ) &nbsp; &nbsp; &nbsp;#f9ca3b</li>
+	<li style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(88, 88, 88); background-color: rgb(243, 243, 243);">
+		color-7.css &nbsp;( for color 7 ) &nbsp; &nbsp; &nbsp;#f27768</li>
+	<li style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(88, 88, 88); background-color: rgb(243, 243, 243);">
+		color-8.css &nbsp;( for color 8 ) &nbsp; &nbsp; &nbsp;#38C8BD</li>
+	<li style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(88, 88, 88); background-color: rgb(243, 243, 243);">
+		color-9.css &nbsp;( for color 9 ) &nbsp; &nbsp; &nbsp;#ff5552</li>
+	<li style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(88, 88, 88); background-color: rgb(243, 243, 243);">
+		color-10.css &nbsp;( for color 10 ) &nbsp;#30e0e0</li>
+	<li style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(88, 88, 88); background-color: rgb(243, 243, 243);">
+		color-11.css &nbsp;( for color 11 ) &nbsp;#F27935</li>
+	<li style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(88, 88, 88); background-color: rgb(243, 243, 243);">
+		color-12.css &nbsp;( for color 12 ) &nbsp;#913d88</li>
+	<li style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(88, 88, 88); background-color: rgb(243, 243, 243);">
+		color-13.css &nbsp;( for color 13 ) &nbsp;#fdb511</li>
+	<li style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(88, 88, 88); background-color: rgb(243, 243, 243);">
+		color-14.css &nbsp;( for color 14 ) &nbsp;#E44832</li>
+	<li style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(88, 88, 88); background-color: rgb(243, 243, 243);">
+		color-15.css &nbsp;( for color 15 ) &nbsp;#5dca7d</li>
+	<li style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(88, 88, 88); background-color: rgb(243, 243, 243);">
+		color-16.css &nbsp;( for color 16 ) &nbsp;#F4B350</li>
+</ol>
+<p style="white-space: normal; margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(88, 88, 88); background-color: rgb(243, 243, 243);">
+	in &quot;<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">style.css</span>&quot; file which is the main styles file of the template contains all the styles for the page.</p>
+<p style="white-space: normal; margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(88, 88, 88); background-color: rgb(243, 243, 243);">
+	To edit a specific part of the page simply scroll down till you find it as the file is well commented and you can find easily the appropriate style that you need.</p>
+<p style="white-space: normal; margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(88, 88, 88); background-color: rgb(243, 243, 243);">
+	In the very first beginning of the file you can find the table of content to make it easier for you finding what you want:</p>
+<pre class="prettyprint lang-css linenums">
+/* ---------------------------------------
+
+
+Template Name: Prema
+
+Description: Responsive HTML5 / CSS3 OnePage Portfolio-Resume Template
+
+Version: 1.0
+
+Author: Ahmed Beheiry
+
+
+Used Fonts : Raleway &amp; Open Sans ( Google free fonts ).
+
+
+=&gt;  Table of Content  &lt;=
+
+
+( 1 ) Import Google Fonts
+
+( 2 ) Main Rules
+
+2-a - Typography
+
+2-b - Helping Classes
+
+2-c - Typed Cursor
+
+2-d - Buttons Styles
+
+( 3 ) Loading Page
+
+( 4 ) Color-Box Switch
+
+( 5 ) Home Section
+
+    5-a - Backgrounds
+
+    5-b - NavBar
+
+    5-c - Content
+
+    5-d - Typed text home
+
+    5-e - FullSize Slider Hero
+
+    5-f - Fade Slider Hero
+
+    5-g - Go down arrow
+
+( 6 ) About Section
+
+( 7 ) Ready Section
+
+( 8 ) Process Section 
+
+( 9 ) Fun Facts Section
+
+( 10 ) Services Section
+
+( 11 ) Quote Section
+
+( 12 ) Experiences Section
+
+( 13 ) Skills Section
+
+( 14 ) Portfolio Section
+
+( 15 ) Testimonials Section
+
+( 16 ) Clients Section
+
+( 17 ) Contact Section
+
+( 18 ) Google Map Section
+
+( 19 ) Footer Section
+
+( 20 ) To Top Button
+
+( 21 ) Media Queries
+
+
+----------------------------------------- */</pre>
+</section>
+<section id="javascript">
+	<div class="page-header"><h3>JavaScript</h3><hr class="notop"></div>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(88, 88, 88); background-color: rgb(243, 243, 243);">
+	In &quot;<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">JS</span>&quot; folder you will find ( 19 js files&nbsp;) :</p>
+<ul style="padding-right: 0px; padding-left: 0px; margin: 18px 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(88, 88, 88); background-color: rgb(243, 243, 243);">
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+		<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">Bootstrap</span>&nbsp;-&nbsp;bootstrap.min.js</li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+		<strong>Dark Map -&nbsp;</strong>dark-map.js &nbsp; &nbsp; &nbsp; &nbsp;( use it if you need dark map in your template )</li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+		<strong>gmaps -</strong>&nbsp; gmaps.min.js &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;( maps plugin )</li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+		<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">html5shiv -&nbsp;</span>html5shiv.js</li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+		<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">appear</span>&nbsp;-&nbsp;jquery.appear.js</li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+		<strong>CountTo</strong><span style="font-family: inherit; font-style: inherit; font-weight: inherit;">&nbsp;-&nbsp;</span>jquery.countTo.js</li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+		<strong>JQuery Easing</strong>&nbsp;-&nbsp;jquery.easing.1.3.js</li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+		<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">easy pie chart</span>&nbsp;-&nbsp;jquery.easypiechart.min.js</li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+		<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">Mixitup</span>&nbsp;-&nbsp;jquery.mixitup.min.js</li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+		<strong>Parallax</strong>&nbsp;-&nbsp;jquery.parallax-1.1.3.js &nbsp;( when using parallax demo )</li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+		<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">JQuery</span>&nbsp;-&nbsp;jquery-1.12.1.min.js</li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+		<strong>Light Map -&nbsp;</strong>light-map.js &nbsp; &nbsp; &nbsp; &nbsp;( use it if you need light map in your template )</li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+		<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">Respond -&nbsp;</span>respond.js</li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+		<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">Main file</span>&nbsp;-&nbsp;scripts.js&nbsp;</li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+		<strong>Slick Slider -&nbsp;</strong>slick.min.js</li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+		<strong>Smooth Scrolling -</strong> smoothscroll.js</li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+		<strong>Typed Plugin -</strong> typed.min.js</li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+		<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">Form validation</span>&nbsp;-&nbsp;validator.min.js</li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+		<strong>Wow.js</strong><span style="font-family: inherit; font-style: inherit; font-weight: inherit;">&nbsp;-&nbsp;wow.min.js</span></li>
+</ul>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(88, 88, 88); background-color: rgb(243, 243, 243);">
+	In &quot;<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">scripts.js</span>&quot; you will find most of the jQuery codes and launching plugins. Every part is well comented so you can adjust any settings you want easily.</p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(88, 88, 88); background-color: rgb(243, 243, 243);">
+	For example:&nbsp;</p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(88, 88, 88); background-color: rgb(243, 243, 243);">
+	Adjusting the loading page to fadeOut when the window is already loaded</p>
+<pre class="prettyprint lang-js linenums">
+/* ---------------------------------------
+Adjust Loading Page
+----------------------------------------- */
+
+$(window).load(function () {
+
+    $(&quot;.loading .loading-wrapper&quot;).delay(500).animate({
+
+        top: &quot;-100%&quot;
+
+    }, 1000, &quot;easeInQuart&quot;);
+
+    $(&quot;.loading&quot;).delay(1100).fadeOut(1500);
+
+});</pre>
+<p>
+	Launching plugins like :&nbsp;</p>
+<pre class="prettyprint lang-js linenums">
+/* ---------------------------------------
+start mixitup plugin in portfolio section
+----------------------------------------- */
+
+    $(&quot;#Container&quot;).mixItUp();
+
+
+/* ---------------------------------------
+start Tooltip in portfolio section
+----------------------------------------- */
+
+    $(function () {
+
+  <span class="Apple-tab-span" style="white-space:pre"> </span>     $(&#39;[data-toggle=&quot;tooltip&quot;]&#39;).tooltip({
+
+  <span class="Apple-tab-span" style="white-space:pre"> </span>         delay: 150
+
+  <span class="Apple-tab-span" style="white-space:pre"> </span>     });
+
+    });
+
+/* ---------------------------------------
+start Carousel in Testimonials section
+----------------------------------------- */
+
+    $(&quot;#carousel&quot;).carousel();</pre>
+</section>
+<section id="php">
+	<div class="page-header"><h3>PHP </h3><hr class="notop"></div>
+<p style="white-space: normal;">
+	In the&nbsp;<strong>PHP</strong>&nbsp; folder, you will find the ( contact.php&nbsp;) file which used in the contact form in the template.</p>
+<p style="white-space: normal;">
+	All you have to do to make it works:</p>
+<p style="white-space: normal;">
+	to change the email to your email open the php folder then contact.php file&nbsp;</p>
+<p style="white-space: normal;">
+	Find those lines here:&nbsp;</p>
+<pre class="prettyprint lang-php linenums">
+// Change to your E-mail &amp;&amp; Subject
+
+$EmailTo = &quot;&#97;&#100;&#109;&#105;&#110;&#64;&#101;&#120;&#97;&#109;&#112;&#108;&#101;&#46;&#99;&#111;&#109;&quot;; // change to your E-mail here
+
+$Subject = &quot;Prema-website&quot;;     // change to the subject you want</pre>
+<p>	then replace &#97;&#100;&#109;&#105;&#110;&#64;&#101;&#120;&#97;&#109;&#112;&#108;&#101;&#46;&#99;&#111;&#109; with your email and Prema-website with the subject you prefer.</p>
+<p>	<strong>PS: To make it work properly m<span style="background-color: rgb(243, 243, 243); color: rgb(56, 56, 56); font-family: Arial, verdana, arial, sans-serif;">ake sure you run the script online and your server have enabled email function.</span></strong></p>
+</section>
+<section id="change_template_color">
+	<div class="page-header"><h3>Change Template Color</h3><hr class="notop"></div>
+<p style="white-space: normal;">
+	As I said before&nbsp;<strong>Prema Template</strong> has 16 different colors.</p>
+<p style="white-space: normal;">
+	In the head section you will find this link:&nbsp;</p>
+<pre class="prettyprint lang-html linenums" style="white-space: normal;">
+&lt;!-- Color styles css file --&gt;
+
+&lt;link rel=&quot;stylesheet&quot; href=&quot;css/colors/color-1.css&quot;&gt;</pre>
+<p style="white-space: normal;">
+	this means the default color is the color used in color-1.css file which is : #<strong>f7465b</strong></p>
+<p style="white-space: normal;">
+	<span style="background-color: rgb(243, 243, 243); color: rgb(88, 88, 88); font-family: Arial, verdana, arial, sans-serif;">if you want to change the default color of the template to another file just replace <strong>color-1.css</strong> in the previous link with <strong>color-*.</strong><strong>css</strong>&nbsp; ( use the number of css color file you prefer &nbsp;from 1 : 16 ).</span></p>
+<p style="white-space: normal;">
+	<span style="color: rgb(56, 56, 56); font-family: Arial, verdana, arial, sans-serif; background-color: rgb(243, 243, 243);">if you want to add your own color open&nbsp;</span><span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; color: rgb(56, 56, 56); background-color: rgb(243, 243, 243);">css/colors/color-1.css</span><span style="color: rgb(56, 56, 56); font-family: Arial, verdana, arial, sans-serif; background-color: rgb(243, 243, 243);">&nbsp;and change&nbsp;</span><strong>f7465b</strong><strong><span style="color: rgb(88, 88, 88); font-family: Arial, verdana, arial, sans-serif; background-color: rgb(243, 243, 243);">&nbsp;</span></strong><span style="color: rgb(56, 56, 56); font-family: Arial, verdana, arial, sans-serif; background-color: rgb(243, 243, 243);">with your own color (&nbsp;</span><span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; color: rgb(56, 56, 56); background-color: rgb(243, 243, 243);">change all&nbsp;<strong>f7465b</strong>&nbsp;in that file</span><span style="color: rgb(56, 56, 56); font-family: Arial, verdana, arial, sans-serif; background-color: rgb(243, 243, 243);">&nbsp;). You can do that to any other file of the 16 colors files.</span></p>
+<p style="white-space: normal;">
+	<span style="color: rgb(56, 56, 56); font-family: Arial, verdana, arial, sans-serif; background-color: rgb(243, 243, 243);">Then you will have to change the color in the color-box switcher in the index.html file :</span></p>
+<pre class="prettyprint lang-html linenums">
+&lt;ul class=&quot;list-unstyled&quot;&gt; &lt;!-- Colors boxes --&gt;
+
+<span class="Apple-tab-span" style="white-space:pre"> </span>    &lt;li class=&quot;color-slot&quot; data-background=&quot;#f7465b&quot; data-target=&quot;css/colors/color-1.css&quot;&gt;&lt;/li&gt;
+
+<span class="Apple-tab-span" style="white-space:pre"> </span>    &lt;li class=&quot;color-slot&quot; data-background=&quot;#874fe8&quot; data-target=&quot;css/colors/color-2.css&quot;&gt;&lt;/li&gt;
+
+<span class="Apple-tab-span" style="white-space:pre"> </span>    &lt;li class=&quot;color-slot&quot; data-background=&quot;#B39964&quot; data-target=&quot;css/colors/color-3.css&quot;&gt;&lt;/li&gt;
+
+<span class="Apple-tab-span" style="white-space:pre"> </span>    &lt;li class=&quot;color-slot&quot; data-background=&quot;#00b85b&quot; data-target=&quot;css/colors/color-4.css&quot;&gt;&lt;/li&gt;
+
+<span class="Apple-tab-span" style="white-space:pre"> </span>    &lt;li class=&quot;color-slot&quot; data-background=&quot;#0C7CD5&quot; data-target=&quot;css/colors/color-5.css&quot;&gt;&lt;/li&gt;
+
+<span class="Apple-tab-span" style="white-space:pre"> </span>    &lt;li class=&quot;color-slot&quot; data-background=&quot;#f9ca3b&quot; data-target=&quot;css/colors/color-6.css&quot;&gt;&lt;/li&gt;
+
+<span class="Apple-tab-span" style="white-space:pre"> </span>    &lt;li class=&quot;color-slot&quot; data-background=&quot;#f27768&quot; data-target=&quot;css/colors/color-7.css&quot;&gt;&lt;/li&gt;
+
+<span class="Apple-tab-span" style="white-space:pre"> </span>    &lt;li class=&quot;color-slot&quot; data-background=&quot;#38C8BD&quot; data-target=&quot;css/colors/color-8.css&quot;&gt;&lt;/li&gt;
+
+<span class="Apple-tab-span" style="white-space:pre"> </span>    &lt;li class=&quot;color-slot&quot; data-background=&quot;#ff5552&quot; data-target=&quot;css/colors/color-9.css&quot;&gt;&lt;/li&gt;
+
+    <span class="Apple-tab-span" style="white-space:pre"> </span>&lt;li class=&quot;color-slot&quot; data-background=&quot;#30e0e0&quot; data-target=&quot;css/colors/color-10.css&quot;&gt;&lt;/li&gt;
+
+<span class="Apple-tab-span" style="white-space:pre"> </span>    &lt;li class=&quot;color-slot&quot; data-background=&quot;#F27935&quot; data-target=&quot;css/colors/color-11.css&quot;&gt;&lt;/li&gt;
+
+<span class="Apple-tab-span" style="white-space:pre"> </span>    &lt;li class=&quot;color-slot&quot; data-background=&quot;#913d88&quot; data-target=&quot;css/colors/color-12.css&quot;&gt;&lt;/li&gt;
+
+<span class="Apple-tab-span" style="white-space:pre"> </span>    &lt;li class=&quot;color-slot&quot; data-background=&quot;#fdb511&quot; data-target=&quot;css/colors/color-13.css&quot;&gt;&lt;/li&gt;
+
+<span class="Apple-tab-span" style="white-space:pre"> </span>    &lt;li class=&quot;color-slot&quot; data-background=&quot;#E44832&quot; data-target=&quot;css/colors/color-14.css&quot;&gt;&lt;/li&gt;
+
+<span class="Apple-tab-span" style="white-space:pre"> </span>    &lt;li class=&quot;color-slot&quot; data-background=&quot;#5dca7d&quot; data-target=&quot;css/colors/color-15.css&quot;&gt;&lt;/li&gt;
+
+<span class="Apple-tab-span" style="white-space:pre"> </span>    &lt;li class=&quot;color-slot&quot; data-background=&quot;#F4B350&quot; data-target=&quot;css/colors/color-16.css&quot;&gt;&lt;/li&gt;
+
+<span class="Apple-tab-span" style="white-space: pre;"> </span>&lt;/ul&gt;</pre>
+<p>	<font color="#383838" face="Arial, verdana, arial, sans-serif">you will have to change the <strong>data-background=&quot;#&quot;</strong> to the color you choose.&nbsp;</font></p>
+<p>	<font color="#383838" face="Arial, verdana, arial, sans-serif">You can add or remove colors to the color-box switcher easily, for example, you want to add another color ( #faa )</font></p>
+<p>	<font color="#383838" face="Arial, verdana, arial, sans-serif">1 ) Add another li&nbsp;like that:&nbsp;</font></p>
+<pre class="prettyprint lang-html linenums">
+&lt;li class=&quot;color-slot&quot; data-background=&quot;#faa&quot; data-target=&quot;css/colors/color-17.css&quot;&gt;&lt;/li&gt;</pre>
+<p>	2 ) Change <strong>data-background</strong> to your color.</p>
+<p>	3 ) change the file name and url in <strong>data-target </strong>(<strong>&nbsp;</strong>css/colors/color-17.css ).</p>
+<p>	4 ) Go to css/colors and create a new copy of color-1.css&nbsp;file and rename it to color-17.css and open it.</p>
+<p>	5 ) Replace all the <strong>f7465b&nbsp;</strong>with&nbsp;<strong>faa.</strong></p>
+<p>	6 ) Done ;)</p>
+</section>
+<section id="parallax">
+	<div class="page-header"><h3>Parallax</h3><hr class="notop"></div>
+<h2>
+	Parallax Effect</h2>
+<p>
+	To have that parallax effect I used parallax jquery plugin you can check it here :&nbsp;<a href="https://github.com/IanLunn/jQuery-Parallax">https://github.com/IanLunn/jQuery-Parallax</a></p>
+<p>
+	In&nbsp;<strong>scripts.js</strong> file you will find this code :&nbsp;</p>
+<pre class="prettyprint lang-js linenums">
+/* ---------------------------------------------------
+
+3 - Parallax Effect
+
+----------------------------------------------------- */
+
+if (/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)) {
+
+    $(&quot;#home.parallax&quot;).css({&quot;background-attachment&quot;: &quot;scroll&quot;});
+
+    $(&quot;#fun-facts.parallax&quot;).css({&quot;background-attachment&quot;: &quot;scroll&quot;});
+
+    $(&quot;#quote.parallax&quot;).css({&quot;background-attachment&quot;: &quot;scroll&quot;});
+
+    $(&quot;#skills.parallax&quot;).css({&quot;background-attachment&quot;: &quot;scroll&quot;});
+
+    $(&quot;#testimonials.parallax&quot;).css({&quot;background-attachment&quot;: &quot;scroll&quot;});
+
+    $(&quot;#contact.parallax&quot;).css({&quot;background-attachment&quot;: &quot;scroll&quot;});
+
+    $(&quot;.slider-item.parallax&quot;).css({&quot;background-attachment&quot;: &quot;scroll&quot;});
+
+} else {
+
+    $(&quot;#home.parallax&quot;).parallax(&quot;50%&quot;, 0.4);
+
+    $(&quot;#fun-facts.parallax&quot;).parallax(&quot;50%&quot;, 0.4);
+
+    $(&quot;#quote.parallax&quot;).parallax(&quot;50%&quot;, 0.4);
+
+    $(&quot;#skills.parallax&quot;).parallax(&quot;50%&quot;, 0.2);
+
+    $(&quot;#testimonials.parallax&quot;).parallax(&quot;50%&quot;, 0.2);
+
+    $(&quot;#contact.parallax&quot;).parallax(&quot;50%&quot;, 0.1);
+
+    $(&quot;.slider-item.parallax&quot;).parallax(&quot;50%&quot;, 0.5);
+
+}</pre>
+<p>
+	I made the hard work for you, as you can see I&#39;ve assigned parallax effect to all sections with background images</p>
+<p>
+	all you have to do to give a section that parallax effect is to give that section a class=&quot;parallax&quot; ( make sure that section is assigned to parallax effect in scripts.js as I showed up there )</p>
+<p>
+	For Example :&nbsp;</p>
+<p>
+	this Testimonials section doesn&#39;t have parallax effect ( as it doesn&#39;t have parallax class ) :</p>
+<pre class="prettyprint lang-html linenums">
+&lt;section id=&quot;testimonials&quot; class=&quot;section text-center&quot;&gt;
+
+    ....
+
+&lt;/section&gt;</pre>
+<p>
+	To make it parallax just give it parallax class like that :&nbsp;</p>
+<pre class="prettyprint lang-html linenums">
+&lt;section id=&quot;testimonials&quot; class=&quot;parallax section text-center&quot;&gt;
+
+    ....
+
+&lt;/section&gt;</pre>
+<p>
+	then check it out and enjoy!&nbsp;</p>
+</section>
+<section id="images">
+	<div class="page-header"><h3>Images</h3><hr class="notop"></div>
+<h2>
+	Changing placeholder images to your images</h2>
+<p>
+	As I mentioned before,&nbsp;<strong>Prema template</strong> doesn&#39;t come with images in the download files so, I used placeholder images from <a href="http://placehold.it">http://placehold.it</a></p>
+<p>
+	You can change these holders with your own images by using the same size as you find in the placeholder text link&nbsp;</p>
+<p>
+	For exapmle :&nbsp;</p>
+<pre class="prettyprint lang-html linenums">
+&lt;img class=&quot;center-block img-responsive&quot; src=&quot;http://placehold.it/800x600&quot; alt=&quot;project-1&quot;&gt;</pre>
+<p>
+	As you can see here the best size to an image here to look perfect on website is 800x600 ( width = 800 xp&nbsp;&amp;&amp; height = 600 px )</p>
+<p>
+	To change it to your image :</p>
+<p>
+	1- Put the image in the&nbsp;<strong>img folder</strong>. &nbsp;( let&#39;s say that image is pic-01.jpg )</p>
+<p>
+	2- Replace the src value http://placehold.it/800x600 &nbsp;with the image src which is : img/pic-01.jpg</p>
+<p>
+	So, it&#39;ll be like that:&nbsp;</p>
+<pre class="prettyprint lang-html linenums">
+&lt;img class=&quot;center-block img-responsive&quot; src=&quot;img/pic-01.jpg&quot; alt=&quot;project-1&quot;&gt;</pre>
+<p>
+	&nbsp;</p>
+<p>
+	For Backgrounds:&nbsp;</p>
+<pre class="prettyprint lang-css linenums">
+#about { background-image: url(&quot;http://placehold.it/1920x1280&quot;; }</pre>
+<p>
+	the best size of background images ( as in the example ) is 1920 x 1280</p>
+<p>
+	To change background to your image ( let&#39;s say it&#39;s name is bg-01.jpg )</p>
+<p>
+	replace the http://placehold.it/1920x1280 &nbsp;with : ../img/bg-01.jpg &nbsp; it&#39;ll be like that :&nbsp;</p>
+<pre class="prettyprint lang-css linenums">
+#about { background-image: url(&quot;../img/bg-01.jpg&quot;); }</pre>
+</section>
+<section id="dark_or_light_map">
+	<div class="page-header"><h3>Dark or Light Map</h3><hr class="notop"></div>
+<p>
+	Prema template has two different types of maps ( dark map or light map&nbsp;) that you can use on your website .</p>
+<p>
+	In every index file you will find Google map section like that :&nbsp;</p>
+<pre class="prettyprint lang-html linenums">
+&lt;!-- Start Google Map Section --&gt;
+
+&lt;section id=&quot;map&quot; class=&quot;gmap&quot;&gt;&lt;/section&gt;
+
+&lt;!-- End Google Map Section --&gt;</pre>
+<p>
+	To use either light map or dark map you will find a script tag before body ending ( it has a class=&quot;map-script&quot; ) just to know it&nbsp;</p>
+<pre class="prettyprint lang-html linenums">
+&lt;script class=&quot;map-script&quot; src=&quot;js/light-map.js&quot;&gt;&lt;/script&gt;</pre>
+<p>
+	as you can see it&#39;s the light map script tag. that will get you the light map in your website. To change it to dark map all you have to do is to include <strong>dark-map.js</strong> file inside <strong>js folder&nbsp;</strong>then replace src=&quot;js/light-map.js&quot; with src=&quot;js/dark-map.js&quot;</p>
+<p>
+	That&#39;s it, and you will have the dark map.</p>
+</section>
+<section id="sources_and_credits">
+	<div class="page-header"><h3>Sources and Credits</h3><hr class="notop"></div>
+<p>
+	<strong>Images:&nbsp;</strong></p>
+<ul>
+	<li>
+		<a href="https://www.pexels.com/">Pexels</a>.</li>
+	<li>
+		<a href="http://unsplash.com/">Unsplash</a>.</li>
+</ul>
+<p>
+	<strong>Note</strong> : All the images used in the demo aren&#39;t distributed with the template. They were for preview in demo only.</p>
+<p>
+	&nbsp;</p>
+<p>
+	<strong>Fonts:&nbsp;</strong></p>
+<ul>
+	<li>
+		<a href="https://fonts.google.com/">Google Fonts</a>. &nbsp; ( Free Fonts ).</li>
+	<li>
+		<a href="http://fontawesome.io/">Fontawesome</a>. ( Free Icons ).</li>
+</ul>
+<p>
+	&nbsp;</p>
+<p>
+	<strong>Scripts:</strong></p>
+<ul>
+	<li>
+		<a href="http://getbootstrap.com/">Bootstrap</a>.</li>
+	<li>
+		<a href="http://www.jquery.com/">jQuery</a>.</li>
+	<li>
+		<a href="http://gsgd.co.uk/sandbox/jquery/easing/">Easing</a>.</li>
+	<li>
+		<a href="https://github.com/matthieua/WOW">Wow.js</a>.</li>
+	<li>
+		<a href="https://daneden.github.io/animate.css">Animate.css</a>.</li>
+	<li>
+		<a href="https://github.com/IanLunn/jQuery-Parallax">Parallax</a>.</li>
+	<li>
+		<a href="https://mixitup.kunkalabs.com/">Mixitup</a>.</li>
+	<li>
+		<a href="http://hpneo.github.io/gmaps/">Gmaps</a></li>
+	<li>
+		<a href="http://kenwheeler.github.io/slick/">slick slider</a></li>
+	<li>
+		<a href="http://www.mattboldt.com/demos/typed-js/">typed</a></li>
+	<li>
+		<a href="https://github.com/mhuggins/jquery-countTo/">CountTo</a>.</li>
+	<li>
+		<a href="https://github.com/rendro/easy-pie-chart">Easy Pie Chart</a>.</li>
+	<li>
+		<a href="https://github.com/bas2k/jquery.appear/">Appear.js</a>.</li>
+	<li>
+		<a href="https://github.com/1000hz/bootstrap-validator">Form Validation</a>.</li>
+	<li>
+		<a href="https://github.com/aFarkas/html5shiv/">HTML5 Shiv</a>.</li>
+	<li>
+		<a href="https://github.com/scottjehl/Respond">Respond.js</a>.</li>
+	<li>
+		<a href="http://placehold.it/">placehold.it</a></li>
+	<li>
+		<a href="http://revaxarts-themes.com/documenter/">Documentation</a>.</li>
+</ul>
+<p>
+	Once again thank you very much for purchasing this template. As I mentioned at the beginning of this documentation, I&#39;ll be glad to help you if you have any questions about this template.</p>
+<p>
+	If you are satisfied with <strong>Prema template,&nbsp;</strong> please rate Prema with 5 stars it&#39;ll help me a lot.</p>
+<p>
+	I hope you enjoy it as much as I enjoyed designing it.</p>
+<p>
+	Regards,</p>
+<p>
+	<strong>Ahmed Beheiry.</strong></p>
+</section>
+
+	</div>
+</body>
+</html>
