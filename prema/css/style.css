@@ -1356,3 +1356,248 @@ footer .copyright i {
 }
 
 /* End Media Queries */
+
+/*---------------------------------------------------------------------*/
+/*  6.11. SECTION - WORK PROCESS
+/*---------------------------------------------------------------------*/
+#work-process {
+  background-color: #000000;
+}
+
+@media (max-width: 767px) {
+  #work-process .text-justify {
+    text-align: center;
+  }
+}
+
+#work-process .divider {
+  margin-bottom: 60px;
+}
+
+@media (max-width: 767px) {
+  #work-process .divider {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+.work-process {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .work-process {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 0px 15px;
+  }
+}
+
+.work-process .item {
+  position: relative;
+  padding: 0;
+}
+
+@media (max-width: 767px) {
+  .work-process .item {
+    margin: 0 auto;
+    width: 200px;
+    height: 132px;
+  }
+}
+
+@media (max-width: 767px) {
+  .work-process .item:before {
+    position: absolute;
+    z-index: 10;
+    content: '';
+    bottom: 0;
+    left: 0;
+    width: 1px;
+    height: 100%;
+    margin-bottom: -66px;
+    border-left: 1px dashed #6e6e6e;
+  }
+}
+
+.work-process .item .inner-content {
+  z-index: 5;
+  position: relative;
+  width: 100%;
+  height: 132px;
+}
+
+@media (min-width: 768px) {
+  .work-process .item .inner-content {
+    margin-top: 102px;
+    height: 102px;
+  }
+}
+
+.work-process .item .inner-content:before {
+  position: absolute;
+  z-index: 10;
+  content: '';
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  border-top: 1px solid #6e6e6e;
+}
+
+.work-process .item .inner-content:after {
+  position: absolute;
+  z-index: 10;
+  content: '';
+  top: 50%;
+  right: 0;
+  width: 1px;
+  height: 100%;
+  margin-top: -132px;
+  border-left: 1px dashed #6e6e6e;
+}
+
+@media (min-width: 768px) {
+  .work-process .item .inner-content:after {
+    margin-top: -102px;
+  }
+}
+
+.work-process .item .inner-content > i {
+  position: absolute;
+  z-index: 15;
+  top: 50%;
+  left: 50%;
+  display: block;
+  width: 86px;
+  height: 66px;
+  line-height: 66px;
+  margin-top: -33px;
+  margin-left: -43px;
+  background-color: #BF5700;
+  font-size: 30px;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.work-process .item .inner-content > span.title {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 66px;
+  line-height: 66px;
+  margin-top: -18px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+  .work-process .item .inner-content > span.title {
+    margin-top: -33px;
+  }
+}
+
+.work-process .item .inner-content > span.dot {
+  position: absolute;
+  z-index: 15;
+  content: '';
+  top: 50%;
+  left: 0;
+  width: 8px;
+  height: 8px;
+  margin-top: -4px;
+  background-color: #6e6e6e;
+  border-radius: 25%;
+}
+
+.work-process .item > i.icon-Arrow {
+  display: block;
+  position: absolute;
+  z-index: 15;
+  top: 50%;
+  right: 0;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  margin-top: 45px;
+  margin-right: -25px;
+  font-size: 25px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .work-process .item > i.icon-Arrow.icon-Down-3 {
+    margin-top: 25px;
+  }
+}
+
+@media (max-width: 767px) {
+  .work-process .item > i.icon-Arrow.icon-Up-3 {
+    left: 0;
+    margin-left: -25px;
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+}
+
+@media (min-width: 768px) {
+  .work-process .item > i.icon-Arrow.icon-Up-3 {
+    margin-top: -25px;
+  }
+}
+
+.work-process .item.first .inner-content:before {
+  left: auto;
+  right: 0;
+}
+
+@media (max-width: 767px) {
+  .work-process .item.last:before {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .work-process .item.last .inner-content:before {
+    left: auto;
+    right: 0;
+  }
+}
+
+.work-process .item.last .inner-content:after {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .work-process .item.last .inner-content > span.dot {
+    right: 0;
+    left: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .work-process .item.no-margin:before {
+    display: none;
+  }
+}
+
+.work-process .item.no-margin .inner-content {
+  margin-top: 0px;
+}
+
+.work-process .item.no-margin .inner-content:after {
+  margin-top: 0px;
+}
+
+@media (min-width: 768px) {
+  .work-process .item.no-margin .inner-content > span.title {
+    top: auto;
+    bottom: 0;
+    margin-bottom: -33px;
+  }
+}
+
